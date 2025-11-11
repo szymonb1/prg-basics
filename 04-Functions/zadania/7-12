@@ -1,0 +1,12 @@
+def f(n):
+    if n == 1:
+        print("*")
+    elif n>1:
+        print("*/"*(n-1), end='')
+        print("*")
+    else:
+        print()
+def main():
+    f(10)
+if __name__ == "__main__":
+    main()
