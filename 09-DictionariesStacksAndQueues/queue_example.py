@@ -25,3 +25,4 @@ print('Number of queue elements:', people.qsize())
 while not people.empty():
     person = people.get()
     print(person)
+print('Number of queue elements:', people.qsize())
